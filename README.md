@@ -142,14 +142,11 @@ The overlay shows: index, crop shape, source filename, instance ID, and bbox.
 - **Background isn’t the majority color in RGB masks:**  
   Use `--mask_mode rgb --bg_color_hex "#000000"` (or your background colour) to pin the background.
 
----
-
-## License
-
-AFL-3.0
 
 ---
 
 ## Citation
+
+Archit, A., Freckmann, L., Nair, S., Khalid, N., Hilt, P., Rajashekar, V., ... & Pape, C. (2025). Segment anything for microscopy. Nature Methods, 22(3), 579-591.
 
 If you use this tool in academic work, please cite the repository and the tools you build on (e.g., napari, MicroSAM, etc.).
