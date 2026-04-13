@@ -32,7 +32,7 @@ IMAGE_PREFIX   = "Image_"   # case-insensitive match
 MASK_PREFIX    = "Mask_"    # case-insensitive match
 APPLY_MASK     = True
 PAD            = 6
-MIN_AREA       = 36
+MIN_AREA       = 36 # Prevents pickung up artifiacts as cells. Change according to image. 
 MASK_MODE      = "auto"
 BG_COLOR_HEX   = None
 OUT_DIR        = None  # If None => save next to ROOT_DIR
